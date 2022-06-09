@@ -13,6 +13,10 @@
 		5C5DC1D7285253CB00C1A16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC1D5285253CB00C1A16A /* Main.storyboard */; };
 		5C5DC1D9285253CE00C1A16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC1D8285253CE00C1A16A /* Assets.xcassets */; };
 		5C5DC1DC285253CE00C1A16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC1DA285253CE00C1A16A /* LaunchScreen.storyboard */; };
+		5C5DC1E4285257CE00C1A16A /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E3285257CE00C1A16A /* APIResource.swift */; };
+		5C5DC1E628525A0C00C1A16A /* QuestionResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */; };
+		5C5DC1E828525AE200C1A16A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E728525AE200C1A16A /* Question.swift */; };
+		5C5DC1EA28525D9B00C1A16A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E928525D9B00C1A16A /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5C5DC1D8285253CE00C1A16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5DC1DB285253CE00C1A16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C5DC1DD285253CE00C1A16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5DC1E3285257CE00C1A16A /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResource.swift; sourceTree = "<group>"; };
+		5C5DC1E728525AE200C1A16A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5C5DC1E928525D9B00C1A16A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				5C5DC1D8285253CE00C1A16A /* Assets.xcassets */,
 				5C5DC1DA285253CE00C1A16A /* LaunchScreen.storyboard */,
 				5C5DC1DD285253CE00C1A16A /* Info.plist */,
+				5C5DC1EB28525DF500C1A16A /* Protocols */,
+				5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */,
+				5C5DC1E728525AE200C1A16A /* Question.swift */,
 			);
 			path = "Generic Protocol Oriented Network Layer";
+			sourceTree = "<group>";
+		};
+		5C5DC1EB28525DF500C1A16A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5C5DC1E3285257CE00C1A16A /* APIResource.swift */,
+				5C5DC1E928525D9B00C1A16A /* NetworkRequest.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5DC1E4285257CE00C1A16A /* APIResource.swift in Sources */,
 				5C5DC1D4285253CB00C1A16A /* ViewController.swift in Sources */,
 				5C5DC1D0285253CB00C1A16A /* AppDelegate.swift in Sources */,
+				5C5DC1E828525AE200C1A16A /* Question.swift in Sources */,
+				5C5DC1EA28525D9B00C1A16A /* NetworkRequest.swift in Sources */,
 				5C5DC1D2285253CB00C1A16A /* SceneDelegate.swift in Sources */,
+				5C5DC1E628525A0C00C1A16A /* QuestionResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
