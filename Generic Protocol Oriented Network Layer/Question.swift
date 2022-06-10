@@ -5,7 +5,7 @@
 //  Created by Artemy Ozerski on 09/06/2022.
 //
 
-import Foundation
+import UIKit
 struct User {
     let name: String?
     let reputation: Int?
@@ -43,6 +43,9 @@ extension Question: Decodable {
     }
 }
 
-struct Wrapper: Decodable {
-    let items: [Question]
+//struct Wrapper: Decodable {
+//    let items: [Question]
+//}
+struct Wrapper<T: Decodable>: Decodable {
+    let items: [T]
 }

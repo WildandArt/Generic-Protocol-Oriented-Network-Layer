@@ -17,6 +17,7 @@
 		5C5DC1E628525A0C00C1A16A /* QuestionResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */; };
 		5C5DC1E828525AE200C1A16A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E728525AE200C1A16A /* Question.swift */; };
 		5C5DC1EA28525D9B00C1A16A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1E928525D9B00C1A16A /* NetworkRequest.swift */; };
+		5C5DC1ED2852F3C400C1A16A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC1EC2852F3C400C1A16A /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResource.swift; sourceTree = "<group>"; };
 		5C5DC1E728525AE200C1A16A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		5C5DC1E928525D9B00C1A16A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5C5DC1EC2852F3C400C1A16A /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				5C5DC1EB28525DF500C1A16A /* Protocols */,
 				5C5DC1E528525A0C00C1A16A /* QuestionResource.swift */,
 				5C5DC1E728525AE200C1A16A /* Question.swift */,
+				5C5DC1EC2852F3C400C1A16A /* APIRequest.swift */,
 			);
 			path = "Generic Protocol Oriented Network Layer";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				5C5DC1E828525AE200C1A16A /* Question.swift in Sources */,
 				5C5DC1EA28525D9B00C1A16A /* NetworkRequest.swift in Sources */,
 				5C5DC1D2285253CB00C1A16A /* SceneDelegate.swift in Sources */,
+				5C5DC1ED2852F3C400C1A16A /* APIRequest.swift in Sources */,
 				5C5DC1E628525A0C00C1A16A /* QuestionResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

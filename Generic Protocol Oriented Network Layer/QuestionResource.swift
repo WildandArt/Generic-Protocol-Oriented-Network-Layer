@@ -7,10 +7,11 @@
 
 import Foundation
 struct QuestionResource : APIResource{
+    typealias ModelType =  Question
+    
     var filter: String?{
         id != nil ? "xxx" : nil
     }
-    typealias ModelType =  Question
     var id : Int?
 
     var methodPath: String{
